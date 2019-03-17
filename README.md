@@ -1,77 +1,80 @@
-Jekyll Clean Dark
-============
+<p align="center">
+    <h2 align="center">Violet Jekyll Template - <a href="http://sergiokopplin.github.io/violet/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/violet"><img src="https://travis-ci.org/sergiokopplin/violet.svg?branch=gh-pages" alt="Build Status" /></a></h2>
+</p>
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-clean-dark.svg)](https://badge.fury.io/rb/jekyll-clean-dark)
+<p align="center">A purple theme for girls and boys.</p>
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the original version in action [on his blog](https://scotte.github.io).
+<p align="center"><strong>Inspiration</strong>: <a href="http://cyberglot.me">Ju Gonçalves</a></p>
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
-* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
+***
 
-![preview1](./assets/images/preview1.jpg)
-![preview2](./assets/images/preview2.jpg)
-![preview3](./assets/images/preview3.jpg)
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside?</a></b>
+    |
+    <b><a href="README.md#setup">Setup?</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#tests">Tests</a></b>
+    |
+    <b><a href="README.md#donate">Donate</a></b>
+    |
+    <b><a href="README.md#problems">Problems</a></b>
+</p>
 
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/violet/gh-pages/violet.png" />
+</p>
 
-Some cool features:
+## What has inside?
 
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrica](http://metrica.yandex.com);
- - Blog tags - check the section below;
- - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
- - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
- - Bootstrap 4 and FontAwesome 5!
- - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
+- [Jekyll](https://jekyllrb.com/) and [Sass](http://sass-lang.com/)
+- Tests with [Travis](https://travis-ci.org/)
+- No JS. :sunglasses:
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+## Setup
 
-Installation
-============
+0. :star: to the project. :metal:
+1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Fork the project [Violet](https://github.com/sergiokopplin/violet/fork)
+3. Edit `_config.yml` with your data.
+4. `bundle install`
+5. `bundle exec jekyll serve`
+6. open in your browser: `http://localhost:4000`
 
-If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
+## Settings
 
-After you will have to set up your `_config.yml`
+You must fill some informations on `_config.yml` to customize your site.
 
-Gem Installation
-================
+```
+name: Jane Doe
+bio: 'A Girl who travels the world eating noodles'
+...
 
-Follow the instructions on the Jekyll [site](https://jekyllrb.com/docs/themes/). Then copy the following files from this repository:
+and lot of other options.
+```
 
- -_config.yml
- - about.md
- - admin.md
- - archive.html
- - feed.xml 
- 
-Blog tags
-=========
+## Tests
 
-To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
+You can test your app with:
 
-License
-=======
+```bash
+bundle exec htmlproofer ./_site
+````
 
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+## Donate
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+If you liked my work, buy me a coffee <3
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
 
-This theme includes the following files which are the properties of their
-respective owners:
+## Problems?
 
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
-# ninthreezy.github.io
+Tell me on github or open a [issue](https://github.com/sergiokopplin/violet/issues/new).
+
+#### Inspirations:
+- [Ju Gonçalves](http://cyberglot.me/)
+
+---
+
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
